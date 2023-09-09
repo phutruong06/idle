@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50334642d88195240bd2bec46ae9e9ef, type: 3}
+  m_Name: Popup Data
+  m_EditorClassIdentifier: 
+  popupCollection:
+    reorderableList:
+      canAdd: 1
+      canRemove: 1
+      draggable: 1
+      expandable: 1
+      multipleSelection: 1
+      isExpanded: 1
+      label:
+        m_Text: Keys
+        m_Image: {fileID: 0}
+        m_Tooltip: 
+      headerHeight: 18
+      footerHeight: 13
+      slideEasing: 0.15
+      verticalSpacing: 2
+      showDefaultBackground: 1
+      elementDisplayType: 0
+      elementNameProperty: 
+      elementNameOverride: 
+      elementIcon: {fileID: 0}
+    reqReferences: {fileID: 0}
+    isExpanded: 1
+    _keyValues: 000000000100000008000000070000000b0000000d0000000e0000000f000000
+    _keys: 000000000100000008000000070000000b0000000d0000000e0000000f000000
+    _values:
+    - {fileID: 8120114224329883082, guid: db60271c68b31af4dae606e020d27b67, type: 3}
+    - {fileID: 6650916529805907970, guid: 260b0083a9d5ea74eb9d715710a79031, type: 3}
+    - {fileID: 3972035493871210806, guid: e2311a61214d5994e96296a33a613a4a, type: 3}
+    - {fileID: 4170011760655971877, guid: 5130e279a1b75bc4cab4f3390c4c98e3, type: 3}
+    - {fileID: 5209792707988931081, guid: a3b5ec6682240f34eb25f49c661d1681, type: 3}
+    - {fileID: 5265051926760713398, guid: c85f9ac9802701742b95bb53a1eefc43, type: 3}
+    - {fileID: 7161103559591675277, guid: 34cc377292ebe60419fb5e4b3e6abb08, type: 3}
+    - {fileID: 1583791998052113654, guid: 7eba2da945744ea42a2f7fb781941ad3, type: 3}

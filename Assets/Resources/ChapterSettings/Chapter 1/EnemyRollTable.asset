@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef80a5a241a06b2438603e5a89196558, type: 3}
+  m_Name: EnemyRollTable
+  m_EditorClassIdentifier: 
+  rollTableObjects:
+  - {fileID: 3359826169090243005, guid: 805aefbdd2af6164bb6c517b46c272ce, type: 3}
+  - {fileID: 3359826169090243005, guid: 655408d1e27cfd348a0b253158caf0a5, type: 3}

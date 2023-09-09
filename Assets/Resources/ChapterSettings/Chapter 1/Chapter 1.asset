@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a3686e5af01a53469770bd51c8bcef4, type: 3}
+  m_Name: Chapter 1
+  m_EditorClassIdentifier: 
+  chapterContent:
+    levelNumber: 1
+    levelName: Deep Woodland
+    description: The woodland of the lumberjack! We fight to claim this area out
+      of zombie hand!
+    sprite: {fileID: 0}
+    levelNummberTextColor: {r: 0.8156863, g: 0.99215686, b: 0.61960787, a: 1}
+    levelNameTextColor: {r: 0.90588236, g: 0.98039216, b: 0.72156864, a: 1}
+    levelBackgroundColor: {r: 0.35686275, g: 0.80784315, b: 0.050980393, a: 1}
+  chapterLenght: 20
+  rewardEachLevels: 5
+  gameplayType: 0
+  averageAttackDamage:
+    baseValue: 0
+    maxLevel: 0
+    isRounded: 0
+    calculation: 0
+    perLevelPercentageBaseValue: 0
+    perLevelAddBaseValue: 0
+    perLevelExponentBaseValue: 0
+    m_baseUpgradeCost: 10
+    m_currentLevelUpgradeCost: 10
+    statEffects: []
+  averageHp:
+    baseValue: 0
+    maxLevel: 0
+    isRounded: 0
+    calculation: 0
+    perLevelPercentageBaseValue: 0
+    perLevelAddBaseValue: 0
+    perLevelExponentBaseValue: 0
+    m_baseUpgradeCost: 10
+    m_currentLevelUpgradeCost: 10
+    statEffects: []
+  Environment: {fileID: 3703316341426520364, guid: 011a7f0d09fbfdc4596612ff8f8bb7a3, type: 3}
+  enemyRollTable: {fileID: 11400000, guid: 9951763ce680e7c49946e13cd2b86ff8, type: 2}
+  BossRollTable: {fileID: 11400000, guid: 36877c6873a3b464581adda058266150, type: 2}
+  BossEveryWave: 2
+  _enemiesPerWave: {x: 25, y: 30}
+  _spawnDelay: {x: 0.79, y: 3.68}
+  ChapterRewards:
+  - {fileID: 11400000, guid: bdd9fdf3d565c1b449068d1afc452ea7, type: 2}
+  - {fileID: 11400000, guid: a268128e8d6f4c947bd18988430659d7, type: 2}
+  - {fileID: 11400000, guid: 9dfe33035ee11e149ab86e14ffb80174, type: 2}

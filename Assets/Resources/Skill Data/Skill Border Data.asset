@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3e19e0e3f21e51429f37e31f7e6e04e, type: 3}
+  m_Name: Skill Border Data
+  m_EditorClassIdentifier: 
+  skillsBorderCollection:
+    m_keys: 0000000001000000020000000300000004000000
+    m_values:
+    - activeSkill: {fileID: 21300000, guid: b2fbcf110e6bb134981ae406b907d73c, type: 3}
+      activeSkillUpper: {fileID: 0}
+      collectionFrame: {fileID: 0}
+      borderColor: {r: 0.4117647, g: 0.5411765, b: 0.6039216, a: 1}
+    - activeSkill: {fileID: 21300000, guid: dbe73c84c35bc7f4ca970f35e2aacdf4, type: 3}
+      activeSkillUpper: {fileID: 21300000, guid: ec42a6b45c0b9ca4fb258e30fac5cc19, type: 3}
+      collectionFrame: {fileID: 21300000, guid: d69bccf373f213646bd33023c3cae8f9, type: 3}
+      borderColor: {r: 0.36862746, g: 0.827451, b: 0.23529412, a: 1}
+    - activeSkill: {fileID: 21300000, guid: 8455696fb9e7a684bbb765acc671b4f2, type: 3}
+      activeSkillUpper: {fileID: 21300000, guid: 47a3a9caa37d0444ea8fa3e4eef813b1, type: 3}
+      collectionFrame: {fileID: 21300000, guid: 67c80e8e449f98845b353edf8dcc1928, type: 3}
+      borderColor: {r: 0.06666667, g: 0.39215687, b: 0.93333334, a: 1}
+    - activeSkill: {fileID: 21300000, guid: d612e63219eab3c49ab251a1529ae584, type: 3}
+      activeSkillUpper: {fileID: 21300000, guid: ca2412eb96914934285441080bff90b7, type: 3}
+      collectionFrame: {fileID: 21300000, guid: b1625d48265ca5a44b6edf96117ee6df, type: 3}
+      borderColor: {r: 0.78039217, g: 0.26666668, b: 0.92156863, a: 1}
+    - activeSkill: {fileID: 21300000, guid: e614421caf7e75d4195fa67db23fa0cf, type: 3}
+      activeSkillUpper: {fileID: 21300000, guid: 0c7ae40991f3e51449ee1a25d51b94d2, type: 3}
+      collectionFrame: {fileID: 21300000, guid: d53aca63a8088c54ea470e3c76beb6e3, type: 3}
+      borderColor: {r: 0.9450981, g: 0.61960787, b: 0.007843138, a: 1}

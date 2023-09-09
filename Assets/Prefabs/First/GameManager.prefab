@@ -1,0 +1,238 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1022671845446527066
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1022671845446527064}
+  - component: {fileID: 1022671845446527065}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1022671845446527064
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1022671845446527066}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 121.351906, y: 146.06163, z: -63.902184}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1022671845446527065
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1022671845446527066}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0758007d86525f4bade54eed5486446, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _canvasGroup: {fileID: 0}
+  loadingSlider: {fileID: 0}
+  selectedChapter: {fileID: 11400000, guid: ee1faf8a5905ae74ca17d1d5557f3ca7, type: 2}
+  skillDataCollection: {fileID: 11400000, guid: 285a6e1a69d6a884b96e3a36861cd17c, type: 2}
+  homeScene: 1
+  coreData:
+    playerData:
+      inventory:
+        speedTicket: 0
+        bigChestKey: 0
+        royalChestKey: 0
+        gold: 200
+        diamond: 0
+        skillSlot: []
+        skillCardOwned: []
+        heroOwned: []
+      seasonPass:
+        seasonPassLevel: 1
+        seasonPassExp: 0
+        isPurchasedSeasonPass: 0
+      chapter:
+        chaptersUnlockedIndex: 
+        lastStage: 1
+      purchased:
+        timePurchased: 0
+        unlockSpeed: 0
+        noAds: 0
+        blessingOwned: []
+      piggyBank:
+        piggyBankCount: 0
+        piggyBankMax: 1000
+        timeClaimed: 0
+      playerGameplay:
+        _currentHP: 10
+        _currentMP: 100
+        unlockAttackRound2: 0
+        unlockAttackRound3: 0
+        unlockStatsRound2: 0
+        damage:
+          baseValue: 10
+          maxLevel: 0
+          isRounded: 1
+          calculation: 0
+          perLevelPercentageBaseValue: 30
+          perLevelAddBaseValue: 0
+          perLevelExponentBaseValue: 0
+          m_baseUpgradeCost: 10
+          m_currentLevelUpgradeCost: 10
+          statEffects: []
+        attackSpeed:
+          baseValue: 0.5
+          maxLevel: 0
+          isRounded: 0
+          calculation: 1
+          perLevelPercentageBaseValue: 30
+          perLevelAddBaseValue: 0.09
+          perLevelExponentBaseValue: 0
+          m_baseUpgradeCost: 10
+          m_currentLevelUpgradeCost: 10
+          statEffects: []
+        range:
+          baseValue: 5
+          maxLevel: 0
+          isRounded: 0
+          calculation: 1
+          perLevelPercentageBaseValue: 30
+          perLevelAddBaseValue: 0.10000000149011612
+          perLevelExponentBaseValue: 0
+          m_baseUpgradeCost: 10
+          m_currentLevelUpgradeCost: 10
+          statEffects: []
+        damageMeter:
+          baseValue: 0.5
+          maxLevel: 0
+          isRounded: 0
+          calculation: 1
+          perLevelPercentageBaseValue: 30
+          perLevelAddBaseValue: 0.5
+          perLevelExponentBaseValue: 0
+          m_baseUpgradeCost: 10
+          m_currentLevelUpgradeCost: 10
+          statEffects: []
+        criticalChance:
+          baseValue: 1
+          maxLevel: 0
+          isRounded: 0
+          calculation: 1
+          perLevelPercentageBaseValue: 30
+          perLevelAddBaseValue: 1
+          perLevelExponentBaseValue: 0
+          m_baseUpgradeCost: 10
+          m_currentLevelUpgradeCost: 10
+          statEffects: []
+        criticalMultiplier:
+          baseValue: 2
+          maxLevel: 0
+          isRounded: 0
+          calculation: 1
+          perLevelPercentageBaseValue: 30
+          perLevelAddBaseValue: 0.10000000149011612
+          perLevelExponentBaseValue: 0
+          m_baseUpgradeCost: 10
+          m_currentLevelUpgradeCost: 10
+          statEffects: []
+        maxHP:
+          baseValue: 10
+          maxLevel: 0
+          isRounded: 1
+          calculation: 1
+          perLevelPercentageBaseValue: 30
+          perLevelAddBaseValue: 3
+          perLevelExponentBaseValue: 0
+          m_baseUpgradeCost: 10
+          m_currentLevelUpgradeCost: 10
+          statEffects: []
+        HPRegen:
+          baseValue: 0.10000000149011612
+          maxLevel: 0
+          isRounded: 0
+          calculation: 1
+          perLevelPercentageBaseValue: 30
+          perLevelAddBaseValue: 0.09000000357627869
+          perLevelExponentBaseValue: 0
+          m_baseUpgradeCost: 10
+          m_currentLevelUpgradeCost: 10
+          statEffects: []
+        maxMP:
+          baseValue: 100
+          maxLevel: 0
+          isRounded: 1
+          calculation: 1
+          perLevelPercentageBaseValue: 30
+          perLevelAddBaseValue: 20
+          perLevelExponentBaseValue: 0
+          m_baseUpgradeCost: 10
+          m_currentLevelUpgradeCost: 10
+          statEffects: []
+        MPRegen:
+          baseValue: 2
+          maxLevel: 0
+          isRounded: 0
+          calculation: 1
+          perLevelPercentageBaseValue: 30
+          perLevelAddBaseValue: 1
+          perLevelExponentBaseValue: 0
+          m_baseUpgradeCost: 10
+          m_currentLevelUpgradeCost: 10
+          statEffects: []
+        expPerEnemyMultiplier:
+          baseValue: 1
+          maxLevel: 0
+          isRounded: 0
+          calculation: 1
+          perLevelPercentageBaseValue: 30
+          perLevelAddBaseValue: 0.10000000149011612
+          perLevelExponentBaseValue: 0
+          m_baseUpgradeCost: 10
+          m_currentLevelUpgradeCost: 10
+          statEffects: []
+        expPerLevel:
+          baseValue: 2
+          maxLevel: 0
+          isRounded: 0
+          calculation: 1
+          perLevelPercentageBaseValue: 30
+          perLevelAddBaseValue: 0.10000000149011612
+          perLevelExponentBaseValue: 0
+          m_baseUpgradeCost: 10
+          m_currentLevelUpgradeCost: 10
+          statEffects: []
+        goldPerEnemyMultiplier:
+          baseValue: 1
+          maxLevel: 0
+          isRounded: 0
+          calculation: 1
+          perLevelPercentageBaseValue: 30
+          perLevelAddBaseValue: 0.10000000149011612
+          perLevelExponentBaseValue: 0
+          m_baseUpgradeCost: 10
+          m_currentLevelUpgradeCost: 10
+          statEffects: []
+        goldPerLevel:
+          baseValue: 2
+          maxLevel: 0
+          isRounded: 0
+          calculation: 1
+          perLevelPercentageBaseValue: 30
+          perLevelAddBaseValue: 0.10000000149011612
+          perLevelExponentBaseValue: 0
+          m_baseUpgradeCost: 10
+          m_currentLevelUpgradeCost: 10
+          statEffects: []
+      freeRewardClaimed: 0
